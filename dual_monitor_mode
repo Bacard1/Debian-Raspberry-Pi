@@ -1,0 +1,6 @@
+nano /etc/apt/sources.list
+deb http://deb.debian.org/debian buster-backports non-free
+
+apt-get -t buster-backports install nvidia-driver
+apt-get install xfce4
+xrandr --output HDMI1 --auto
